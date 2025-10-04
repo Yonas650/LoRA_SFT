@@ -15,19 +15,19 @@ Only the key plots used in the report:
 
 - Perplexity vs. Step (Ablation A)
 
-  ![Perplexity vs. Step (Ablation A)](assets/page1_img1.png)
+  <img src="assets/page1_img1.png" alt="Perplexity vs. Step (Ablation A)" width="600">
 
 - Perplexity vs. Step (Ablation B)
 
-  ![Perplexity vs. Step (Ablation B)](assets/page2_img2.png)
+  <img src="assets/page2_img2.png" alt="Perplexity vs. Step (Ablation B)" width="600">
 
 - Train loss (SmolLM / Ablation A)
 
-  ![train/loss (A)](assets/page2_img3.png)
+  <img src="assets/page2_img3.png" alt="train/loss (A)" width="600">
 
 - Train loss (GPT‑2 / Ablation B)
 
-  ![train/loss (B)](assets/page2_img4.png)
+  <img src="assets/page2_img4.png" alt="train/loss (B)" width="600">
 
 ## Sample Generation
 
@@ -94,4 +94,3 @@ Notes
 - Add a held‑out validation split (current PPL reflects the train slice)
 - LR sweep for GPT‑2 and/or increase steps/slice size
 - Consider QLoRA and a larger model for stronger results
-
